@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+      // Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+userPin = prompt("gali bin: ")
+
+pin = 1234
+
+
+if (pin == userPin) {
+console.log("Welcome to EVC!");
+
+// evc program that will show evc data option
+
+    console.log("1: Itus haraagaaga ")
+    console.log("2: Kaarka hadalka ")
+    console.log("3: Bixi bil ")
+    console.log("4: U wareeji EVC ")
+    console.log("5: Warbixin kooban ")
+    console.log("6: Badal binka ")
+    console.log("7: warbixin guud ")
+    console.log("8: Gadaal u laabo")
+    
+    balance = 50
+    kaarka = 2
+    bill=20
+    
+    choice = prompt("dooro number: ")
+    // balance
+    if (choice == 1) {
+    console.log("haragaaga waa ", balance, "dolar")
+    
+    }
+    
+    // kaarka hadal ka
+     if (choice == 2) {
+    console.log("1: ku shubo ")
+    console.log("2: ugu shub ")
+    console.log("3: haraagaaga ")
+    console.log("4: ka bax")
+    
+    choice = prompt("dooro number: ")
+    if (choice == 1) {
+         kushubo = prompt("ku shubo kaar: ")
+    
+        if (kushubo < balance) {
+            console.log("waxaa ku shubatay: ", kushubo, "haraaga EVC ga waa  ", balance - kushubo)
+        } else {
+            console.log("kuguma filna: ")
+        }
+
+    
+   
+     }
+}
+    // pay bill
+    if(choice=3){
+       console.log("1: post paid: ")
+     console.log("2:pay bill ") 
+     bill =prompt("enter bill")
+       if (bill== 1) {
+             console.log("1: query bill payment ")
+              console.log("2:pay post paid bill ") 
+              console.log("2:pay friend post paid bill ") 
+       }
+       querry_bill=prompt("query bill payment")
+       if( querry_bill=1){
+           console.log("you have paid:$", balance-bill, "of bi bill");
+       }
+    }
+    
+   
+   // Exit option
+    else if (choice == 9) {
+        console.log("Exiting EVC program. Goodbye!");
+    
+} else {
+    console.log("bin aad galisay waa qalad")
+}
+}
+    </script>
+</body>
+</html>
